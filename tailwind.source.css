@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .link {
+      @apply cursor-pointer text-primaryColor1
+    }
+
+    .footerLink {
+        @apply cursor-pointer text-gray-400
+      }
+  }
